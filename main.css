@@ -1,0 +1,693 @@
+@media screen and (max-width: 600px) {
+	
+	html, body { 
+	  margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%;
+	}
+	
+	#container {
+		height: 100%;
+		width: 100%;
+	}
+	
+	#block-left {
+		background: url(images/mountain-top-2.jpg);
+		height: 100%;
+		width: 100%;
+	}
+	
+	#info {
+		background-color: rgba(44,45,51,0.9);
+		height: 100%;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#maininfo {
+		height: 200px;
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		margin-top: -50px;
+	}
+	
+	#maininfo h1 {
+		margin-top: 0;
+		color: white;
+		font-size: 200%
+	}
+	
+	#maininfo hr {
+		width: 25%
+	}
+	
+	#maininfo h2 {
+		color: #a6a6a6;
+		font-size: 75%;
+	}
+	
+	.icon-github {
+		width: 50px;
+	}
+	
+	#github {
+		width: 50px;
+		height: 50px;
+		margin: 0 auto;
+		background-color: #585B63;
+		transition: 1s;
+	}
+	
+	#github img {
+		width: 50px;
+	}
+	
+	#github:hover {
+		transition: 1s;
+		background-color: #72CC96;
+	}
+	
+	#block-right {
+		height: 100%;
+		padding-top: 20px;
+	}
+	
+	.mywork-link {
+		position: absolute;
+		right: 5%;
+		text-decoration: none;
+		color: #d4d4d4;
+	}
+	
+	.contact-link {
+		position: absolute;
+		right: 35%;
+		text-decoration: none;
+		color: #d4d4d4;
+	}
+	
+	.about-link {
+		position: absolute;
+		right: 60%;
+		text-decoration: none;
+		color: #d4d4d4;
+	}
+	
+	.login-link {
+		position: absolute;
+		right: 90%;
+		text-decoration: none;
+		color: #d4d4d4;
+	}
+	
+	.mywork-link:hover {
+		color: #72CC96;
+	}
+	
+	.contact-link:hover {
+		color: #72CC96;
+	}
+	
+	.about-link:hover {
+		color: #72CC96;
+	}
+	
+	.login-link:hover {
+		color: #72CC96;
+	}
+	
+	.about-info {
+		height: 500px;
+		width: 70%;
+		position: absolute;
+		top: 150%;
+		left: 50%;
+		margin-left: -150px;
+		margin-top: -250px;
+	} 
+	
+	.about-info hr {
+		width: 27%;
+		margin: 0;	
+		color: #72CC96;
+	}
+	
+	.login {
+		display: none;
+		position: absolute;
+		top: 150%;
+		left: 50%;
+		margin-top: -250px;
+		margin-left: -150px;
+	}
+	
+	.login hr {
+		width: 27%;
+		margin: 0;	
+		color: #72CC96;
+	}
+	
+	.login input[type="text"] {
+		width: 200px;
+	}
+	
+	.login input[type="password"] {
+		width: 200px;
+	}
+	
+	.login a:hover {
+		color: #72CC96;
+	}
+	
+	.contact {
+		display: none;
+		position: absolute;
+		top: 150%;
+		left: 50%;
+		margin-top: -250px;
+		margin-left: -150px;
+	}
+	
+	.contact hr {
+		width: 27%;
+		margin: 0;	
+		color: #72CC96;
+	}
+	
+	.contact input[type="text"] {
+		width: 200px;
+	}
+	
+	.contact textarea {
+		width: 200px;
+	}
+	
+	.register {
+		display: none;
+		position: absolute;
+		top: 150%;
+		left: 50%;
+		margin-top: -250px;
+		margin-left: -150px;
+	}
+		
+		.register hr {
+		width: 27%;
+		margin: 0;	
+		color: #72CC96;
+	}
+	
+	.register input[type="text"] {
+		width: 200px;
+	}
+	
+	.register input[type="password"] {
+		width: 200px;
+	}
+	
+	.register input[type="email"] {
+		width: 200px;
+	}
+	
+	.register input[type="date"] {
+		width: 200px;
+	}
+	
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+	html, body { 
+	  margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%;
+	}
+	
+	#container {
+		height: 100%;
+		width: 100%;
+	}
+	
+	#block-left {
+		background: url(images/mountain-top-2.jpg);
+		height: 100%;
+		width: 100%;
+	}
+	
+	#info {
+		background-color: rgba(44,45,51,0.9);
+		height: 100%;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#maininfo {
+		height: 200px;
+		width: 500px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -50px;
+		margin-left: -250px;
+	}
+	
+	#maininfo h1 {
+		margin: 0;
+		color: white;
+	}
+	
+	#maininfo hr {
+		width: 25%
+	}
+	
+	#maininfo h2 {
+		color: #a6a6a6
+	}
+	
+	#github {
+		width: 50px;
+		height: 50px;
+		margin: 0 auto;
+		background-color: #585B63;
+		transition: 1s;
+	}
+	
+	#github img {
+		width: 50px;
+	}
+	
+	#github:hover {
+		transition: 1s;
+		background-color: #72CC96;
+	}
+	
+	#block-right {
+		height: 100%;
+		padding-top: 20px;
+	}
+	
+	.mywork-link {
+		position: absolute;
+		right: 40%;
+		text-decoration: none;
+		color: #d4d4d4;
+	}
+	
+	.contact-link {
+		position: absolute;
+		right: 125px;
+		margin-right: 20px;
+		text-decoration: none;
+		color: #d4d4d4;
+	}
+	
+	.about-link {
+		position: absolute;
+		right: 25px;
+		margin-right: 20px;
+		text-decoration: none;
+		color: #d4d4d4;
+	}
+	
+	.login-link {
+		position: absolute;
+		right: 230px;
+		margin-right: 20px;
+		text-decoration: none;
+		color: #d4d4d4;
+	}
+	
+	.contact-link:hover {
+		color: #72CC96;
+	}
+	
+	.about-link:hover {
+		color: #72CC96;
+	}
+	
+	.login-link:hover {
+		color: #72CC96;
+	}
+	
+	.mywork-link:hover {
+		color: #72CC96;
+	}
+	
+  .about-info {
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 150%;
+		left: 50%;
+		margin-left: -250px;
+		margin-top: -250px;
+	} 
+	
+	.about-info hr {
+		width: 27%;
+		margin: 0;	
+		color: #72CC96;
+	}
+	
+	.login {
+		display: none;
+		position: absolute;
+		top: 150%;
+		left: 50%;
+		margin-top: -250px;
+		margin-left: -150px;
+	}
+	
+	.login hr {
+		width: 27%;
+		margin: 0;	
+		color: #72CC96;
+	}
+	
+	.login input[type="text"] {
+		width: 400px;
+	}
+	
+	.login input[type="password"] {
+		width: 400px;
+	}
+	
+	.login a:hover {
+		color: #72CC96;
+	}
+	
+	.contact {
+		display: none;
+		position: absolute;
+		top: 150%;
+		left: 50%;
+		margin-top: -250px;
+		margin-left: -150px;
+	}
+	
+	.contact hr {
+		width: 27%;
+		margin: 0;	
+		color: #72CC96;
+	}
+	
+	.contact input[type="text"] {
+		width: 400px;
+	}
+	
+	.contact textarea {
+		width: 400px;
+	}
+	
+	.register {
+		display: none;
+		position: absolute;
+		top: 150%;
+		left: 50%;
+		margin-top: -250px;
+		margin-left: -150px;
+	}
+		
+		.register hr {
+		width: 27%;
+		margin: 0;	
+		color: #72CC96;
+	}
+	
+	.register input[type="text"] {
+		width: 400px;
+	}
+	
+	.register input[type="password"] {
+		width: 400px;
+	}
+	
+	.register input[type="email"] {
+		width: 400px;
+	}
+	
+	.register input[type="date"] {
+		width: 400px;
+	}
+	
+}
+
+@media screen and (min-width: 960px) {
+	html, body { 
+	  margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%;
+	}
+	
+	#container {
+		height: 100%;
+		width: 100%;
+	}
+	
+	#block-left {
+		background: url(images/mountain-top-2.jpg);
+		height: 100%;
+		width: 50%;
+		float: left;
+	}
+	
+	#info {
+		background-color: rgba(44,45,51,0.9);
+		height: 100%;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#maininfo {
+		height: 200px;
+		width: 500px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -50px;
+		margin-left: -700px;
+	}
+	
+	#maininfo h1 {
+		margin: 0;
+		color: white;
+	}
+	
+	#maininfo hr {
+		width: 25%
+	}
+	
+	#maininfo h2 {
+		color: #a6a6a6
+	}
+	
+	#github {
+		width: 50px;
+		height: 50px;
+		margin: 0 auto;
+		background-color: #585B63;
+		transition: 1s;
+	}
+	
+	#github img {
+		width: 50px;
+	}
+	
+	#github:hover {
+		transition: 1s;
+		background-color: #72CC96;
+	}
+	
+	#block-right {
+		height: 100%;
+		width: 50%;
+		float: left;
+	}
+	
+	.mywork-link {
+		position: absolute;
+		right: 125px;
+		margin-right: 200px;
+		text-decoration: none;
+		color: #d4d4d4;
+		top: 20px;
+	}
+	
+	.contact-link {
+		position: absolute;
+		right: 125px;
+		margin-right: 20px;
+		top: 20px;
+		text-decoration: none;
+		color: #d4d4d4;
+	}
+	
+	.about-link {
+		position: absolute;
+		right: 25px;
+		margin-right: 20px;
+		text-decoration: none;
+		color: #d4d4d4;
+		top: 20px;
+	}
+	
+	.login-link {
+		position: absolute;
+		right: 230px;
+		margin-right: 20px;
+		text-decoration: none;
+		color: #d4d4d4;
+		top: 20px;
+		cursor: pointer;
+	}
+	
+	.login-link2 {
+		color: #d4d4d4;
+	}
+	
+	.mywork-link:hover {
+		color: #72CC96;
+	}	
+	
+	.contact-link:hover {
+		color: #72CC96;
+	}
+	
+	.about-link:hover {
+		color: #72CC96;
+	}
+	
+	.login-link:hover {
+		color: #72CC96;
+	}
+	
+	.login-link2:hover {
+		color: #72CC96;
+	}
+	
+  .about-info {
+		height: 300px;
+		width: 500px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left: 250px;
+		margin-top: -75px;
+	} 
+	
+	.about-info hr {
+		width: 27%;
+		margin: 0;	
+		color: #72CC96;
+	}
+	
+	.login {
+		display: none;
+		position: absolute;
+		top: 50%;
+		left: 66%;
+			margin-top: -60px;
+	}
+	
+	.login hr {
+		width: 27%;
+		margin: 0;	
+		color: #72CC96;
+	}
+	
+	.login input[type="text"] {
+		width: 400px;
+	}
+	
+	.login input[type="password"] {
+		width: 400px;
+	}
+	
+	.login a:hover {
+		color: #72CC96;
+	}
+	
+	.contact {
+		display: none;
+		position: absolute;
+		top: 50%;
+		left: 66%;
+		margin-top: -60px;
+	}
+	
+	.contact hr {
+		width: 27%;
+		margin: 0;	
+		color: #72CC96;
+	}
+	
+	.contact input[type="text"] {
+		width: 400px;
+	}
+	
+	.contact textarea {
+		width: 400px;
+	}
+	
+	.register {
+		display: none;
+		position: absolute;
+		top: 50%;
+		left: 66%;
+		margin-top: -60px;
+	}
+		
+		.register hr {
+		width: 27%;
+		margin: 0;	
+		color: #72CC96;
+	}
+	
+	.register input[type="text"] {
+		width: 400px;
+	}
+	
+	.register input[type="password"] {
+		width: 400px;
+	}
+	
+	.register input[type="email"] {
+		width: 400px;
+	}
+	
+	.register input[type="date"] {
+		width: 400px;
+	}
+
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
